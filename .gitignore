@@ -1,0 +1,22 @@
+# Local secrets -- never commit
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime outputs (created only after approval)
+drafts/
+Notes.md
+
+# Unrelated scraped artifacts (not part of this app)
+groww_review_classifier.py
+/*.csv
+/*.log
+
+# OS
+.DS_Store
+Thumbs.db
